@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login - Books4U</title>
+	<link rel="stylesheet" type="text/css" href="css/style1.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/typed.js"></script>
+</head>
+<body id="body1">
+	<div class="logo-header">
+	<nav class="nav">
+		<table>
+			<tr>
+				<td><h1 class="logo"><a href="index.html">Books4U</a></h1></td>
+				<td><a href="index.html" class="list1">Home</a></td>
+				<td><a href="index.html" class="list1">Legacy</a></td>
+				<td><a href="index.html" class="list1">Contact</a></td>
+				<td><a href="index.html" class="list1">About</a></td>
+                <td><a href="team.html" class="list1">Team</a></td>
+				<td class="portal1"><a href="signup.php">&nbsp;Sign Up</a></td>
+			</tr>
+		</table>
+	</nav>
+</div>
+
+
+	<div class="login-form" align="center">
+		<form >
+		<h1 style="color: white; font-weight: 300; display: inline"></h1><br><br><br>
+		<label>Name</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="name-input" type="text" name="Name" placeholder="&nbsp;&nbsp;Enter your Name">
+        <br>
+        <br>
+        <label>E-mail</label>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="email-input" type="email" name="eid" placeholder="&nbsp;&nbsp;Enter your email id"><br><br>
+        <label>Password</label>
+        <input id="pass-input" type="password" name="pid"
+        placeholder="&nbsp;&nbsp;Enter your password"><br><br><br><br>
+        <a href="#"><div class="log-btn">Login</div></a>   
+            
+		</form>
+	</div>
+	
+    <script>
+        $(document).ready(function(){
+            $('input[name=Name]').focus(function(){
+                $('body').css({'background-image': 'url(assets/header12.jpg)','transition': 'all 0.3s linear'});
+            });
+            $('input[name=Name]').focusout(function(){
+                $('body').css({'background-image': 'url(assets/header.jpg)','transition': 'all 0.3s linear'});
+            });
+            
+            $('input[name=eid]').focus(function(){
+                $('body').css({'background-image': 'url(assets/header12.jpg)','transition': 'all 0.3s linear'});
+            });
+            $('input[name=eid]').focusout(function(){
+                $('body').css({'background-image': 'url(assets/header.jpg)','transition': 'all 0.3s linear'});
+            });
+            
+         });
+        $(document).ready(function(){
+             $('input[name=pid]').focus(function(){
+                $('body').css({'background-image': 'url(assets/header12.jpg)','transition': 'all 0.3s linear'});
+            });
+            $('input[name=pid]').focusout(function(){
+                $('body').css({'background-image': 'url(assets/header.jpg)','transition': 'all 0.3s linear'});
+            });
+            
+         });
+        
+    $(document).ready(function(){
+        $('form h1').typed({
+            strings: ['Log In with our website', 'Enjoy bunch of features', 'We\'ll keep you updated.'],
+            typeSpeed: 0,
+            backSpeed: 0,
+            loop: true,
+            pause: 10,
+        });
+    });
+    </script>
+</body>
+</html>

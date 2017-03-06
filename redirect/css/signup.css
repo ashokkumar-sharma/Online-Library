@@ -1,0 +1,120 @@
+body, html{
+    font-family: 'Lato', sans-serif;
+    height: 600px;
+    margin: 0;
+}
+.nav{
+     height: 78px;
+     width: 100%;
+     z-index: 10000;
+     top:0;
+     bottom: 0;
+     display: block;
+     background: transparent;
+     -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+     -o-transition: all 0.5s ease;
+     transition: all 0.5s ease;
+     position: absolute;
+}
+ h1.logo a{
+     padding-right: 30px;
+     padding-left: 39px;
+     color: #ff5a09;
+     text-decoration: none;
+     font-size: 32px;
+     font-weight: 600;
+}
+ .nav tr td a.list1{
+     text-decoration: none;
+     font-size: 19px;
+     padding-right: 19px;
+     color: white;
+     -webkit-transition: all 0.2s linear;
+     -moz-transition: all 0.2s linear;
+     transition: all 0.2s linear;
+}
+ .nav tr td a.list1:hover{
+    color: #ff5a09;
+}
+.main1 {
+	background: url('../assets/ngspc_0060.jpg') 50% no-repeat fixed;
+    background-size: cover;
+    position: relative;
+    height: 110%;
+}
+.bg{
+     z-index: 3;
+    padding-top: 20%;
+    color: #fff;
+    font-weight: 1;
+}
+.bg h1{
+    display: inline-block;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.parallax {
+	background: url('../assets/39.jpg') 50% no-repeat fixed;
+    background-size: cover;
+    position: relative;
+    top: 0%;
+    padding-top: 40%;
+    height: 20%;
+    overflow: hidden;
+}
+form{
+    position: relative;
+    top: -290%;
+    left: 37%;
+    align-content: center;
+}
+label{
+    font-size: 30px;
+    font-weight: 100;
+    color: #fff;
+}
+input{
+    height: 30px;
+    width: 300px;
+    border: 2px solid #222;
+    border-radius: 9px;
+}
+#setEmail {
+	margin-left: 80px;
+}
+#setPassword {
+	margin-left: 26px;
+}
+#confirmPassword {
+	margin-left: 45px;
+}
+#mob-no{
+    margin-left: 14px;
+}
+.typed-cursor{
+    
+    position: fixed;
+    font-size: 40px;
+    opacity: 0;
+    font-weight: 100;
+ }
+.sub-btns {
+	display: block;
+    width: 300px;
+    height: 54px;
+    border: 2px solid #fafafa;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: all 0.3s linear;
+    padding-top: 0;
+}
+form a{
+    text-decoration: none;
+    color: #fff;
+}     
+.sub-btns:hover{
+    background: #ff2a09;
+    color: #fff;
+}

@@ -1,0 +1,60 @@
+html, body{
+    height: 1000px;
+    margin: 0;
+    max-width: 100%;
+    background: url('../assets/articles2.jpg') 50% no-repeat fixed;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+#category-1{
+    position: absolute;
+    z-index: 2;
+    top: 25%;
+    left: 10%;
+    width: 300px;
+    height: 400px;
+    background: url('../assets/trending.png');
+    background-size: cover;
+}
+#category-2{
+    position: absolute;
+    z-index: 2;
+    top: 65%;
+    left: 40%;
+    width: 300px;
+    height: 400px;
+    background: url('../assets/top10.png');
+    background-size: cover;
+}
+#category-3{
+    position: absolute;
+    z-index: 2;
+    top: 25%;
+    left: 70%;
+    width: 300px;
+    height: 400px;
+    background: url('../assets/facts.png');
+    background-size: cover;
+}
+#category-4{
+    position: absolute;
+    z-index: 2;
+    top: 110%;
+    left: 10%;
+    width: 300px;
+    height: 400px;
+    background: url('../assets/author.png');
+    background-size: cover;
+}
+#category-5{
+    position: absolute;
+    z-index: 2;
+    top: 110%;
+    left: 70%;
+    width: 300px;
+    height: 400px;
+    background: url('../assets/astro.png');
+    background-size: cover;
+}
